@@ -43,7 +43,7 @@ const Navbar = () => {
           </NavItem>
         </NavMenu>
         <NavBtn>
-          <a target="_blank" href="https://wa.me/081355134350" rel="noopener noreferrer">
+          <a target="_blank" href="https://wa.me/085846271962" rel="noopener noreferrer">
             <NavBtnLink>Contact Us</NavBtnLink>
           </a>
         </NavBtn>
