@@ -10,7 +10,7 @@ const Hero = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Streethairlab</HeroH1>
-        <HeroP id="services">
+        <HeroP>
           Your <HeroSpan>Personal</HeroSpan> Hair Stylist
         </HeroP>
       </HeroContent>

@@ -5,7 +5,7 @@ import { Card, CardClient, CardDetail, CardImg, CardLayer, CardService, CardStar
 
 const Testimonial = () => {
   return (
-    <Section>
+    <Section id="testi">
       <Container>
         <TitleH1>Testimonials</TitleH1>
         <TitleP>Our customers love us! Read what they have to say below</TitleP>

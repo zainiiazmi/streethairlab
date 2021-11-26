@@ -3,7 +3,7 @@ import { Card, CardInfo, CardSpan, CardTitle, Container, Content, Section, Title
 
 const Service = () => {
   return (
-    <Section>
+    <Section id="services">
       <Container>
         <TitleH1>Services</TitleH1>
         <TitleP>Selain potong rambut, kami juga memiliki beberapa service lain.</TitleP>
@@ -13,7 +13,7 @@ const Service = () => {
               <CardTitle>
                 <CardSpan>{title}</CardSpan>
               </CardTitle>
-              <CardInfo id="open">{description}</CardInfo>
+              <CardInfo>{description}</CardInfo>
             </Card>
           ))}
         </Content>
