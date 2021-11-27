@@ -2,7 +2,12 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   /* position: relative; */
-  margin-top: 100px;
+  padding-top: 100px;
+
+  @media (max-width: 979px) {
+    margin-top: 90px;
+    padding-top: 10px;
+  }
 `;
 
 export const Container = styled.div`

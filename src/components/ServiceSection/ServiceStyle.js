@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  margin-top: 100px;
-  /* background-color: #aaa; */
+  /* margin-top: 100px; */
+  padding-top: 100px;
+
+  @media (max-width: 979px) {
+    margin-top: 100px;
+    padding-top: 0px;
+  }
 `;
 
 export const Container = styled.div`
